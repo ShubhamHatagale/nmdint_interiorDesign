@@ -8,7 +8,7 @@ import contact from '../pages/contact';
 
 import '../css/about.css';
 import { color } from 'framer-motion';
-import { BsArrowRightCircle } from 'react-icons/bs';
+import { BsArrowRightCircle, BsSearch } from 'react-icons/bs';
 
 function About() {
 
@@ -129,6 +129,7 @@ function About() {
                                         </div> */}
 
                                         <div className='project-title-container'>
+                                            <BsSearch color='#fff' size={50} />
                                             <h2>Analysis</h2>
                                             <p>
                                                 The aim is always to acquire a deep understanding of each project and each product. The identification of the exact needs and desires of all parties involved is key in order to define the essence of the project. In addition to this we also tries to lever our influence on clients to make decisions believed to be better for them, the product, the end user or the production process.
@@ -136,6 +137,7 @@ function About() {
                                         </div>
                                         <div className='project-title-arrow'>
                                             <BsArrowRightCircle color='#fff' size={50} />
+
                                         </div>
                                         <div className='project-title-container'>
                                             <h2>Idea Generation</h2>
