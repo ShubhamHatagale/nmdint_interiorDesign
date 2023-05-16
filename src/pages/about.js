@@ -64,6 +64,7 @@ function About() {
                                                 <img src="/projects/nmd/static/media/img3.6cc1f70d761d0113727f.jpg" alt="nv" />
                                             </div>
                                         </div>
+                                        
                                         <div className="about-know-text-flex">
                                             <div>
                                                 <p>Mr. Niraj Mehta, the visionary Founder of our prestigious company, completed his bachelors and master’s in interior design and Technology from the globally reputed London Metropolitan University, England. He emerged victorious in a notable city and art competition in 2009.</p>
@@ -74,7 +75,7 @@ function About() {
                                         </div>
                                     </div>
                                 </section>
-                                <section style={{ height: "120vh" }}>
+                                <section style={{ height: "120vh",marginTop:"40vh" }}>
                                     <div>
                                         <h2 style={{ textAlign: "center", margin: "20px" }}>
                                             <span className="about-know-title">
@@ -86,7 +87,12 @@ function About() {
                                     <div className='team-img'>
                                         <img src={nmdteam} alt="nh" />
                                     </div>
-                                    <div style={{ color: "white", float: "right", width: "600px", margin: "50px" }}>
+                                    <div style={{ color: "white", 
+                                    float: "right", 
+                                    width: "600px",
+                                    marginTop:"40vh" 
+                                    // margin: "50px" 
+                                    }}>
                                         <p>Team NMD is bunch of creative professionals who always passionate of delivering different ideas to client.</p>
                                         <p>At NMD, we all sit together and think together. Our open office work culture has resulted in free interaction between employees and creating a strong team. Freedom to think and explore is evident in our work. We also invest a lot of time and energy in nurturing our talent. Management and technical training workshops are a part of the routine. Our colleagues come from diverse cultures and backgrounds, bringing in their wealth of knowledge to the organization.</p>
 
@@ -143,15 +149,7 @@ function About() {
                                             </p>
                                         </div>
                                     </section>
-                                    {/* <div className='team-img'>
-                                        <img src={nmdteam} alt="nh" />
-                                    </div>
-                                    <div style={{ color: "white", float: "right", width: "600px", margin: "50px" }}>
-                                        <p>Team NMD is bunch of creative professionals who always passionate of delivering different ideas to client.</p>
-                                        <p>At NMD, we all sit together and think together. Our open office work culture has resulted in free interaction between employees and creating a strong team. Freedom to think and explore is evident in our work. We also invest a lot of time and energy in nurturing our talent. Management and technical training workshops are a part of the routine. Our colleagues come from diverse cultures and backgrounds, bringing in their wealth of knowledge to the organization.</p>
-
-                                        <p>NMD is a family of inspired individuals headed by young, passionate professional designers bringing in their expertise into different verticals.</p>
-                                    </div> */}
+                                  
                                 </section>
                                 <section style={{ height: "200vh" }}>
                                     <div>
