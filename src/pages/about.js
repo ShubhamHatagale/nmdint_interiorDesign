@@ -8,7 +8,7 @@ import contact from '../pages/contact';
 
 import '../css/about.css';
 import { color } from 'framer-motion';
-import { BsArrowRightCircle, BsSearch } from 'react-icons/bs';
+import { BsArrowRightCircle, BsFillLightbulbFill, BsGift, BsHandIndex, BsHandbag, BsLightbulb, BsLightbulbOff, BsSearch } from 'react-icons/bs';
 
 function About() {
 
@@ -129,7 +129,7 @@ function About() {
                                         </div> */}
 
                                         <div className='project-title-container'>
-                                            <BsSearch color='#fff' size={50} />
+                                            <center><BsSearch color='#fff' size={50} /></center>
                                             <h2>Analysis</h2>
                                             <p>
                                                 The aim is always to acquire a deep understanding of each project and each product. The identification of the exact needs and desires of all parties involved is key in order to define the essence of the project. In addition to this we also tries to lever our influence on clients to make decisions believed to be better for them, the product, the end user or the production process.
@@ -140,6 +140,8 @@ function About() {
 
                                         </div>
                                         <div className='project-title-container'>
+                                            <cente><BsLightbulb color='#fff' size={50} /></cente>
+
                                             <h2>Idea Generation</h2>
                                             <p>For us communication is the most important tool in our studio and in our projects. Whether it is with producer, manufacturer, each other or anyone else with a relevant input, it provides inspiration and insight. Dialogues within us are, we would like to believe, of positive nature: nothing is labeled as wrong or right, in the end the goal is to always get closer to the essence. An inquisitive and open- minded process is of great value to us</p>
                                         </div>
@@ -147,6 +149,8 @@ function About() {
                                             <BsArrowRightCircle color='#fff' size={50} />
                                         </div>
                                         <div className='project-title-container'>
+                                            <center><BsHandbag color='#fff' size={50} /></center>
+
                                             <h2>Materialization</h2>
                                             <p>
                                                 Visualizing the ideas, by giving them a material form, is an important communicative tool. Visualization will often involve hand- drawn and digital sketches, model- making and mock- ups as well as 3D visualization and detailed technical plans.
@@ -156,6 +160,8 @@ function About() {
                                             <BsArrowRightCircle color='#fff' size={50} />
                                         </div>
                                         <div className='project-title-container'>
+                                            <center><BsGift color='#fff' size={50} /></center>
+
                                             <h2>Products</h2>
                                             <p>
                                                 The pre- production phase of the project calls for great attention to details. This implies the production of technical detailing, cost – and manufacturing analysis as well as packaging and life cycle analysis.
