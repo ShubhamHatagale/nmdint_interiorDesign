@@ -281,7 +281,7 @@
   .about-content-title-cur {
       position: absolute;
       z-index: 999;;
-      font-size: 15vw;
+      font-size: 5vw;
   }
   .about-right-image img {
       margin-top: 90px;
@@ -297,7 +297,7 @@
   }
 
   .about-title-wrapper h4 {
-      font-size: 20vw;
+      font-size: 8vw;
       letter-spacing: -5px;
   }
 
