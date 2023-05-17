@@ -29,9 +29,12 @@
 }
 
 .about-content-text-wrapper {
-  padding: 150px 0px 0px 50px;
-}
+  padding: 15px 15px 15px 15px;
+  /* padding: 50px; */
+  text-align: justify;
+  text-justify: inter-word;
 
+}
 
 .about-content-title {
   font-family: var(--neue) !important;
@@ -60,28 +63,33 @@
 
 }
 
-
 .about-content-text-wrapper p {
   color: #fff;
   /* padding: 80px 0px; */
   font-size: 18px;
   position: absolute;
   z-index: 9999;
-  width: 60%;
-  top: 80vh;
+  width: 100%;
+  top: 216vh;
 }
 
 .about-right-img-1 {
   position: absolute;
-  top: 130px;
-  left: 25vw;
+  top: 850px;
+  left: 24vw;
+}
+
+.about-right-img-Head {
+  position: absolute;
+  top: 50px;
+  left: 24vw;
+  margin-left: 25%;
 }
 
 .about-right-img-1 img {
   height: 35vh;
   border-radius: 100%;
 }
-
 
 .about-title-section {
   display: flex;
@@ -127,9 +135,9 @@
 }
 
 .about-title-section p{
-  margin-top: 70px;
+  margin-top: 90px;
+  color: white;
 }
-
 
 .container {
   display: flex;
@@ -198,7 +206,7 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
-  padding: 300px 200px;
+  padding: 100px;
   background: #110A06;
 }
 
@@ -207,11 +215,14 @@
 }
 .about-know-title-flex img {
   height: 70vh;
+  width: 100%;
 }
 
 .about-know-text-flex {
-  margin-top: 130px;
+  /* margin-top: 115px; */
   width: 50%;
+  text-align: justify;
+
 }
 
 .about-know-text-flex div p {
@@ -236,7 +247,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 2s linear infinite;
-  text-transform: uppercase; 
 } 
 
 
@@ -260,89 +270,7 @@
 }
 
 
-@media (max-width: 768px) {
-  .about-content-section {
-      display: flex;
-      flex-direction: column;
-  }
 
-  .about-right-img-1 img { 
-      display: none;
-  }
-
-  .about-content-text-wrapper {
-      padding: 150px 0px 0px 0px;
-  }
-
-  .about-content-text-wrapper h4 {
-      font-size: 15vw;
-  }
-
-  .about-content-title-cur {
-      position: absolute;
-      z-index: 999;;
-      font-size: 5vw;
-  }
-  .about-right-image img {
-      margin-top: 90px;
-  }
-
-  .about-content-text-wrapper p {
-      width: 70%;
-      top: 60vh;
-      text-align: justify;
-  }
-  .about-title-wrapper {
-      width: 90%;
-  }
-
-  .about-title-wrapper h4 {
-      font-size: 8vw;
-      letter-spacing: -5px;
-  }
-
-  .about-title-section {
-      padding: 400px 0px 100px 0px;
-  }
-
-  
-
-  .about-msg-title-cur {
-      font-size: 15vw;
-      margin-top: 40px;
-  }
-
-  .text-wrapper h1 {
-      font-size: 40vw;
-  }
-
-  .about-know-flex-container {
-      padding: 150px 20px;
-      flex-direction: column;
-  }
-  .about-know-title {
-      font-size: 15vw;
-  }
-
-  .about-know-title-flex img {
-      height: 50vh;
-  }
-  .about-know-title-flex {
-      width: auto;
-      
-  }
-  .about-know-text-flex {
-      width: auto;
-      margin-top: 70px;
-  }
-  .about-know-links-container div h4 {
-      font-size: 6vw;
-  }
-  .about-know-how-section {
-      height: 100%;
-      padding-bottom: 0px;
-  }
-}
 .scroll-container, header {
   left: 0;
   position: fixed;
@@ -391,58 +319,7 @@
   margin: 24px 0 0;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 582px;
-  }
 
-  .u-section-1 .u-layout-wrap-1 {
-    width: 940px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 571px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 0;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 111px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: 720px;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 211px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    width: 540px;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-1 .u-layout-wrap-1 {
-    width: 340px;
-  }
-}
 
 .card{
   margin:40px;
@@ -513,3 +390,141 @@
   
 }
 
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 582px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 571px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 111px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 211px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content-section {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .about-right-img-1 img { 
+      display: none;
+  }
+
+  .about-content-text-wrapper {
+      padding: 150px 0px 0px 0px;
+  }
+
+  .about-content-text-wrapper h4 {
+      font-size: 15vw;
+  }
+
+  .about-content-title-cur {
+      position: absolute;
+      z-index: 999;;
+      font-size: 5vw;
+  }
+  .about-right-image img {
+      margin-top: 90px;
+  }
+
+  .about-content-text-wrapper p {
+      width: 70%;
+      top: 60vh;
+      text-align: justify;
+  }
+  .about-title-wrapper {
+      width: 90%;
+  }
+
+  .about-title-wrapper h4 {
+      font-size: 8vw;
+      letter-spacing: -5px;
+  }
+
+  .about-title-section {
+      padding: 400px 0px 100px 0px;
+  }
+
+  
+
+  .about-msg-title-cur {
+      font-size: 15vw;
+      margin-top: 40px;
+  }
+
+  .text-wrapper h1 {
+      font-size: 40vw;
+  }
+
+  /* .about-know-flex-container {
+      padding: 150px 20px;
+      flex-direction: column;
+  } */
+
+  .about-know-title {
+      font-size: 15vw;
+  }
+
+  .about-know-title-flex img {
+      height: 50vh;
+  }
+  .about-know-title-flex {
+      width: auto;
+      
+  }
+  .about-know-text-flex {
+      width: auto;
+      margin-top: 70px;
+  }
+  .about-know-links-container div h4 {
+      font-size: 6vw;
+  }
+  .about-know-how-section {
+      height: 100%;
+      padding-bottom: 0px;
+  }
+}

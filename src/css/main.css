@@ -77,6 +77,8 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
+    color: white;
+    margin-top: 10%;
 }
 
 .footer-copyright {
@@ -101,6 +103,8 @@ footer {
 .footer-social ul li {
     font-size: 24px;
     margin: 0px 20px;
+    color: white;
+
 }
 
 
@@ -173,11 +177,11 @@ footer {
 
 .talk-us-section {
     background-color: none;
-    padding: 400px 0px 30px 0px;
+    /* padding: 400px 0px 30px 0px; */
 }
 
 .talk-title-container {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;

@@ -81,7 +81,9 @@ function Work() {
               <h2><span> Our Work </span></h2>
             </div>
             <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur dolor id magna feugiat, eu imperdiet lorem pretium. Mauris sit amet lorem quis est eleifend ornare. Donec porta ex ipsum, sed egestas sapien viverra ut. Integer nec lacus metus. Nam rutrum leo ut turpis blandit ultricies. Suspendisse rutrum nisl vel nulla sodales, sed sodales massa molestie. Pellentesque accumsan nec urna tincidunt auctor.</p>
+              <div className="about-right-img-Head" >
+                <img style={{ borderRadius: "50px", height: "70vh", marginLeft: "28%" }} src="/projects/nmd/static/media/img2.814a8b32693b6489ba67.jpg" alt="mv" />
+              </div>
             </div>
           </section>
 
@@ -144,17 +146,6 @@ function Work() {
               <button onClick={scrollLeft}><BsArrowRightCircle color='#fff' size={50} /></button>
             </div>
           </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
           <TalkUs txtcolor="#fff" />
