@@ -60,7 +60,7 @@ function Home() {
             <div className='main-home'>
               <section className='hero-section' style={{ background: bgcolor }}>
                 <div className='main_bg_img'>
-                  <img src={main_bg} alt=""/>
+                  <img src={main_bg} alt="" />
                 </div>
                 <div className='hero-img-position'>
                   <div className='hero-svg-wrapper'>
@@ -73,10 +73,7 @@ function Home() {
                     </svg>
                   </div>
                   <div className='hero-img-wrapper'>
-
                     <img src={HeroImg} alt="" />
-
-
                   </div>
                 </div>
               </section>
@@ -210,21 +207,21 @@ function Home() {
                     </div>
                     <div className='project-image3'>
                       <Parallax speed={-10}>
-                      <h1>Project Name</h1>
+                        <h1>Project Name</h1>
                         <img src={ContentImg3} alt="" />
                         <div class="overlay"></div>
                       </Parallax>
                       <div className='project-image2'>
                         <Parallax speed={20}>
-                        <h1>Project Name</h1>
-                        <img src={ContentImg3} alt="" />
-                        <div class="overlay"></div>
+                          <h1>Project Name</h1>
+                          <img src={ContentImg3} alt="" />
+                          <div class="overlay"></div>
                         </Parallax>
                       </div>
                     </div>
                     <div className='project-image4'>
                       <Parallax speed={20}>
-                      <h1>Project Name</h1>
+                        <h1>Project Name</h1>
                         <img src={ContentImg3} alt="" />
                         <div class="overlay"></div>
                       </Parallax>

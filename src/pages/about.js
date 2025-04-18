@@ -129,7 +129,6 @@ function About() {
                                     </div>
 
                                     <section className='project-box-wrapper'>
-
                                         <div className='project-title-container'>
                                             <div style={{ marginLeft: "25%", padding: "3%" }}> <BsSearch color='#fff' size={50} /></div>
                                             <h2>Analysis</h2>
@@ -171,6 +170,8 @@ function About() {
                                     </section>
 
                                 </section>
+
+
                                 <section style={{ height: "200vh" }}>
                                     <div>
                                         <h2 style={{ textAlign: "center", margin: "5px" }}>
